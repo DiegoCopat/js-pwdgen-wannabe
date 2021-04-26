@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>(insicurissimo) password generator</title>
+</head>
+<body>
+    <main>
+        <h1>Generatore di password personali</h1>
+        <section>
+            <div class="box name relative">
+                <div class="box-name uppercase">Nome</div>
+                <div>
+                    Il tuo nome è: 
+                    <span id="name"></span>
+                </div>
+            </div>
+            <div class="box surname relative">
+                <div class="box-name uppercase">Cognome</div>
+                <div>
+                    Il tuo cognome è: 
+                    <span id="surname"></span>
+                </div>
+            </div>
+            <div class="box color relative">
+                <div class="box-name uppercase">Colore preferito</div>
+                <div>
+                    Il tuo colore preferito è:
+                    <span id="color"></span>
+                </div>
+            </div>
+            <div class="box pass relative">
+                <div class="box-name uppercase">Password</div>
+                <div>
+                    La tua password generata automaticamente è: 
+                    <span id="pass"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- link per la parte js -->
+    <script src="js/pass-generator.js"></script>
+</body>
+</html>
